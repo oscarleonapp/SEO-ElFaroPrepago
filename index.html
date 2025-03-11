@@ -124,6 +124,25 @@
         transform: rotate(360deg);
       }
     }
+
+    @keyframes crecer {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        .boton-animado {
+            background-color: #d63b98;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            animation: crecer 1s infinite;
+        }
   </style>
   <!-- Page loading scripts -->
   <script>
@@ -208,9 +227,7 @@
   }
   </script>
   
-
 </head>
-
 
 <!-- Body -->
 <body>
@@ -231,10 +248,10 @@
     <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
     <header class="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">
       <div class="container px-3">
-        <!-- <a href="index.html" class="navbar-brand pe-3">
-          <img src="assets/img/logo.svg" width="47" alt="Silicon">
-          Silicon
-        </a> -->
+        <a href="index.html" class="navbar-brand pe-3">
+          <!-- <img src="#" width="47" alt="Silicon"> -->
+          EL FARO PREPAGO
+        </a>
         <div id="navbarNav" class="offcanvas offcanvas-end bg-dark">
           <div class="offcanvas-header border-bottom border-light">
             <h5 class="offcanvas-title text-white">Menu</h5>
@@ -288,7 +305,7 @@
               <p class="text-body mx-auto mb-md-5 mb-4 pb-xl-2 pb-md-0 pb-sm-2 fs-5" style="max-width: 36.5rem;">
                 Nuestra servicio incluye oral, anal y todo lo que necesites para una experiencia perfecta.
               </p>
-              <a href="https://elfaroprepago.cl/#prepagos" class="btn btn-lg shadow-primary" style="background-color: #f40030;">VER LAS PUTITAS PREPAGOS</a>
+              <a href="https://elfaroprepago.cl/#prepagos" class="btn btn-lg shadow-primary boton-animado" style="background-color: #f40030;">VER LAS PUTITAS PREPAGOS</a>
             </div>
           </div>
         </div>
